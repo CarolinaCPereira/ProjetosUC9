@@ -1,0 +1,394 @@
+* {
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+}
+body {
+    background-color: hwb(105 95% 4%); 
+    font-family: "space-mono", sans-serif;
+}
+header {
+    background-color: #1A1957;
+    height: 171px;
+    width: 100%;
+    display: flex;   
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:2;
+}
+#pesquisa {
+    background-color: black;
+    border-color:#1A1957;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 400px;
+    padding: 5px;
+}
+.links {
+    display: flex;
+    width: 450px;
+    justify-content:space-around;
+    flex-direction:column;
+    align-items: flex-end;
+    flex:1;
+}
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content:space-between;
+    flex:1;
+}
+.login-carrinho {
+    display:flex;
+    flex-direction: row;
+
+}
+.login p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;   
+    text-decoration: none;
+    list-style: none;
+}
+.menu-list{
+    background-color: #1A1957;
+    width: 100%;
+    height: 100%;
+    display: flex;  
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 20px;
+    padding: 5px;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.banner {
+    background-image: url(../img/banner.png);
+    background-image: no repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 396px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Mono-space"; sans-serif;
+
+}
+
+.banner h1 {
+    font-size: 80px;
+}
+.banner h3 {
+    font-size: 30px;
+}
+
+.informações { 
+    background-color: #1A1957; 
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.clicaveis {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    padding: 0 50px ;
+}
+.PCGAMER {
+    background-image:url(../img/pcgamer.png);
+    background-repeat: no-repeat;
+    flex:1;
+    display: flex;
+    justify-content:center;
+    width: 100%;      
+}
+.jogos { 
+    background-image: url(../img/cs.png);
+    background-repeat: no-repeat;
+    flex:1;
+    margin-left: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+}
+.jogos h1 {
+    color: white;
+    font-size:20px;
+    margin: 50px;
+    align-items: center;
+
+}
+.jogos h3{
+    display: flex;
+    height:100%;
+    font-size: 14px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 30px ;
+}
+.jogos-button {
+    background-color:black;
+    border-color:  #1A1957;
+    border: 5px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+    display: flex;
+    width:100px;
+    height:120px;
+    justify-content: center;
+    align-self: flex-start;
+    margin-left: 55px;
+    margin-bottom: 55px;
+}
+.pc-button {
+    background-color:black;
+    border-color:  #1A1957;
+    color: white;
+    width: 382px;
+    height:80px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.Diversos {
+    width: 100%;
+    margin: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.chamadat {
+    display: flex;
+    justify-content: space-between;
+}
+.chamada {
+    text-transform: uppercase;
+    color: white;
+    background-color: #0081FF;
+    font-size: 32px;
+    padding: 10px;
+    width: 418px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+.lançamentos {
+    background-image: url(../img/VR.jpg);
+    display: flex;
+    width:418px;
+    height:395px;
+    justify-content: center;
+}
+.mais-vendidos{
+    background-image: url(../img/FONES.jpg);
+    display: flex;
+    width:418px;
+    height:395px;  
+    justify-content: center;
+
+}
+.promoções {
+    background-image: url(../img/TECLADO.jpg);
+    display: flex;
+    width:418px;
+    height:395px;
+    justify-content: center;
+}
+.button-diversos {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border-color: #1A1957;
+    font-size: 24px;
+    width: 220px;
+    height:80px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    padding:15px;
+}
+
+footer {
+    background-color: #1A1957;
+    display: flex;  
+    width: 100%;
+    height: 340px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.news-contatos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex:1;
+}
+.newsletter {
+    text-transform: uppercase;
+    width:1000px;
+    display: flex;
+    flex-direction: row;
+}
+input[type="email"] {
+    background-color: black;
+    border-radius: 6px;
+    border-color: #1A1957;
+    color: white;
+    width: 634px;
+    height: 40px;
+    margin-bottom: 50px;
+}
+.button-news {
+    background-color: black;
+    border-radius: 20px;
+    border-color: #1A1957;
+    color: white;
+    font-weight: bold;
+    width: 75px;
+    height: 40px;
+    margin-bottom: 50px;
+
+}
+.contatos {
+    display: flex;
+    width: 1000px;
+}
+
+.contatos-nome {
+    text-transform: uppercase;
+    text-decoration: none;
+    width:1000px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    color: white;
+}
+.contatos p {
+    background-color: black;
+    text-transform: none;
+    border-radius: 6px;
+    border-color: #1A1957;
+    color: white;
+    margin-left: 30px;
+    padding: 15px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 634px;
+    height: 155px;
+}
+.pgto-dir {
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.pagamento {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: flex;  
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+.direitos-reservados {
+    text-decoration: none;
+    color: white;   
+    font-size: 10px;
+    display: flex;  
+    align-self:flex-end;
+
+}
+.login-panel {
+    background-color: white;
+    border: 4px solid #1A1957;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+    height: 100%;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.login-panel-button {
+    background-color:#0081FF;
+    border-radius: 6px;
+    color:white;
+    border-color: #1A1957;
+    font-size: 20px;
+    width: 220px;
+    height:30px;
+    display: flex;
+    margin: 15px;
+}
+
+.logo img {
+    width: 175px;
+    margin-bottom: 30px;
+}
+.login-panel label {
+    margin-bottom: 30px;
+}
+
+.get-app-panel {
+margin-top: 20px;
+text-align: center;
+}
+.app-butons {
+    margin-top: 16px;
+}
+.app-buttons img {
+    height:40px;
+    padding: 0 2px;
+}
+input[type="e-mail"], [type= "password"] {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    width:500px;
+    height: 30px;
+    display: flex;
+    align-self: center;
+    margin: 20px;
+}
