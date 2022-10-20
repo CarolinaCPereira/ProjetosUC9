@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem vindo ao site da GameMania</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js" defer></script>
+    <script src="js/script.js" defer></script>
+</html>
+
+<body >
+    <nav class="nav" id="nav"> 
+ <ul class="menu" id= "menu">                            
+            <li><a href="#index.html">Início</a></li>               
+            <li><a href="#">Hardware</a></li>          
+            <li><a href="#">Celulares</a></li>             
+            <li><a href="#">Jogos</a></li>           
+            <li><a href="#">Acessórios</a></li>
+        </ul>
+        <a href="#" id="barras" onclick="mostrarMenu()"><img class="icone-menu" src="img/bars.svg" alt="Ícone do menu de barras"></a>
+    </nav>  
+     
+<header>
+<div class="logo">
+    <img src="img/LOGO3.svg" alt="Logo do site Gamemania">
+    </div>
+    <div class="pesquisa">
+        <input class="caixa-de-pesquisa" type="search" placeholder="Olá, o que você procura?">
+        <button><img src="img/lupa.png" alt="lupa" width="45px" ></button>
+    </div>
+
+<div class="links">
+        <div class="redes-sociais">
+            <a href="#"><img src="img/insta (1).png"></a>
+            <a href="#"><img src="img/insta (2).png"></a>
+            <a href="#"><img src="img/insta (3).png"></a>
+        </div>
+        <div class="login-carrinho">
+            <a href="login.html"><img src="img/loginbutton.png" width="65px" alt="ícone de login"></a>
+            <a href="#"> <img src="img/shopchartbutton.png" width="65px" alt="ícone de carrinho"></a>
+        </div>
+    </div>
+</header>                                                                                                                     
+<section class = "banner">
+    <h1>game mania</h1><br>
+    <h3>a sua loja da tecnologia</h3>
+</section>
+
+<section class = "informações">  
+    <div><h3>frete grátis</h3> 
+        <h4>em produtos selecionados</h4></div> 
+    <div><h3>entrega expressa</h3> 
+        <h4>a partir de 3 dias úteis</h4></div> 
+    <div><h3>desconto de 7% </h3>
+         <h4> com pagamento no pix</h4></div> 
+</section>
+
+<section class="destaques"> 
+    <div class="PCGAMER">
+         <button class="pc-button"><p>Monte seu PC GAMER<p>
+        </button></div>
+    <div class="jogos">
+         <h1>jogos: <br> destaque da semana</h1>
+        <p>Counter-Strike, um dos títulos mais 
+        <br>jogados de todos os tempos, coloca 
+        <br>os jogadores na pele de dois times:
+        <br>de um lado, terroristas, do outro,
+        <br>os contra-terroristas, policiais
+        <br> que devem impedir a ação dos 
+        <br>criminosos antes que seja tarde 
+        <br>demais.</p>
+        <button class="jogos-button">saiba mais</button>     
+    </div>
+</section>
+<section class="container">
+    <div class="chamadat">
+        <div class="chamada 1">lançamentos</div>
+        <div class="chamada 2">mais vendidos</div>
+        <div class="chamada 3">promoções</div>
+        </div>
+    <div class="Diversos" >
+        <div class="lançamentos"> 
+        <button class="button-diversos"> Acessórios VR</button></div> 
+        <div class="mais-vendidos"> 
+        <button class="button-diversos"> Headseat Gamer</button></div> 
+        <div class="promoções"> 
+        <button class="button-diversos"> Promoções em teclados </button></div>
+    </div>
+</section> 
+<footer>
+        <form class="newsletter">
+            <label for="email">newsletter</label>
+            <input type="email" id="email" placeholder="Insira seu e-mail e receba nossas novidades e promoções">
+            <button onclick="cadastrarNewsletter()" class="button-news">Cadastrar</button></form> 
+        <div class="contatos-nome">
+            <p>contatos</p>
+            <div class="contatos">
+            <p>atendimento@gamemania.com.br<br><br>
+            (11) 9966-6666<br><br> 
+            Rua Girassol, 88, Vila Madalena, São Paulo/SP <br>
+            Segunda a Sexta, das 9h às 18h <br>
+             Sábados, das 9h às 15h</p>
+             <div class="direitos-reservados">
+                <p>2022 ₢ GameMania . Todos os direitos reservados . CNPJ 00.000.000/0001-01</p></div>
+            </div>
+             <div class="pagamento">
+            <p>métodos de pagamento</p>
+            <img src="/img/pagamento.png" alt="pagamento"></div>  
+             
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
