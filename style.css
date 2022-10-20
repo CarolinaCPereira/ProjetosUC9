@@ -1,0 +1,522 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: hwb(105 95% 4%); 
+    font-family: "space-mono", sans-serif;
+}
+.container {
+    max-width: 100%;
+}
+.nav {
+    background-color: #1A1957;
+    height:80px;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    top:0;
+    padding:30px;
+}
+#barras {
+    display: none;
+}
+.icone-menu {
+    height: 40px;
+
+}
+.menu {
+    display: flex;
+    list-style: none;
+}  
+.menu a {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    width: 30%;
+    height: 80%;
+}
+header {
+    background-color: #1A1957;
+    width: 100%;
+    height: fit-content;
+    display: flex;   
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.pesquisa {
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.caixa-de-pesquisa {
+    background-color: black;
+    border-color:#1A1957;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 400px;
+    padding: 5px;
+}
+
+.redes-sociais {
+    display: flex;
+    align-self: flex-end;
+    width: 20%;
+    height: 20%;
+    flex:1;
+}
+.login-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+.banner {
+    background-image: url(../img/banner.png);
+    background-image: no repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.banner h1 {
+    font-size: 80px;
+}
+.banner h3 {
+    font-size: 30px;
+}
+.informações { 
+    background-color: #1A1957; 
+    width: 100%;
+    height: fit- fit-content;
+    color: white;
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.informações h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.informações h4 {
+    font-size: 20px;
+    font-style: italic;
+}
+.destaques {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.PCGAMER {
+    background-image: url(../img/pcgamer.png);
+    background-repeat: no-repeat;
+    width:45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jogos {
+    background-image: url(../img/cs.png);
+    background-repeat: no-repeat;
+    width:45%;
+}
+.pc-button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-color: #1A1957;
+    font-size: 24px;
+    display: flex;
+    width: 25%;
+    height: 20%;
+}
+.jogos h1 {
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 40px;
+}
+.jogos p {
+    padding: 20px;
+    font-size: 14px;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+.jogos-button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-color: #1A1957;
+    font-size: 16px;
+    margin-left: 55px;
+    text-transform: uppercase;
+}
+.Diversos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.chamadat {
+    display: flex;
+    justify-content: space-between;
+}
+.chamada {
+    text-transform: uppercase;
+    color: white;
+    background-color: #0081FF;
+    font-size: 32px;
+    padding: 10px;
+    width: 418px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+}
+.lançamentos {
+    background-image: url(../img/VR.jpg);
+    display: flex;
+    width:418px;
+    height:395px;
+    justify-content: center;
+}
+.mais-vendidos{
+    background-image: url(../img/FONES.jpg);
+    display: flex;
+    width:418px;
+    height:395px;  
+    justify-content: center;
+}
+.promoções {
+    background-image: url(../img/TECLADO.jpg);
+    display: flex;
+    width:418px;
+    height:395px;
+    justify-content: center;
+}
+.button-diversos {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-color: #1A1957;
+    font-size: 24px;
+    width: 220px;
+    height:80px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    padding:5px;
+}
+footer{
+    background-color: #1A1957;
+    display: flex; 
+    width: 100%;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.newsletter {
+    text-transform: uppercase;
+    width:70%;
+    display: flex;
+    flex-direction: row;
+}
+input[type="email"] {
+    background-color: black;
+    border-radius: 20px;
+    border-color: #1A1957;
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;;
+    width: 40%;
+}
+
+.button-news {
+    background-color: black;
+    border-radius: 20px;
+    border: 5px;
+    border-color: #1A1957;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+}
+.contatos-nome {
+    text-transform: uppercase;
+    text-decoration: none;
+    width:100%;
+    height: 70%;
+    display: flex;
+    color: white;
+}
+.contatos p {
+    background-color: black;
+    text-transform: none;
+    border-radius: 20px;
+    border: 5px;
+    border-color: #1A1957;          
+    color: white;
+    margin-left: 40px;
+    padding: 15px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 79%;
+
+}
+.pagamento {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.login-panel {
+    background-color: white;
+    border: 4px solid #1A1957;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  .imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-img {
+    margin-bottom: 35px;
+    width: 20vw;
+    }
+
+  .caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input[type="password"],[type="e-mail"]{
+    background-color: var(--white);
+    border: 1px solid var(--border-primary);
+    height: 40px;
+    border-radius: 4px; 
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    width: 50vw;
+    margin-bottom: 10px;
+     }
+   
+  input[type="submit"]{
+    width: 320px;
+    margin-top:10px;
+    height:30px;
+    border:0;
+    background-color:var(--button-primary);
+    border-radius: 4px;
+    color:var(--white);
+    font-size: 16px;
+    font-weight:bold;
+    cursor: pointer;
+  }
+  
+  .infobox {
+    background-color:var(--white);
+    height: 60px;
+    border: 1px solid var(--border-primary);
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .infobox p a {
+    font-weight: bold;
+    user-select: none;
+  }
+  .get-app-panel {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .app-buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .app-buttons img {
+    height: 40px;
+    padding: 0 2px;
+  }
+
+  @media screen and (max-width: 1000px) {
+  .header {
+        position: relative;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        height: 500px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color:#1A1957;
+        padding: 20px;
+    }
+
+    .menu-ativo {
+        display: flex;
+    }
+
+    #barras {
+        display: inline-block;
+    }
+    .logo{
+        display: flex;
+        align-self: center;
+        justify-self:right;
+        width:40%;
+    }
+    .banner h1 {
+        font-size: 40px;
+    }
+    .banner h3 {
+        font-size: 28px;
+    }
+    .login p
+    {
+        display: none;
+    }
+    .pesquisa {
+        display: none;
+    }
+    .login-carrinho {
+        display: flex; 
+        flex-direction:column;
+        align-self: flex-end;  
+    }
+    .redes-sociais {
+        display: none;
+    }
+
+    .destaques {
+        display: flex;
+        width: 90%;
+        margin:20px;
+        height: 600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+   
+    .jogos p {
+        display: none;
+    }
+    .PCGAMER {
+       width: 100%;
+       height: 45%;
+    }
+    .pc-button {
+        font-size: 20px;
+        width: 40%;
+        height: 25%;
+    }
+
+    .jogos{
+        width: 100%;
+        height: 45%;
+    }
+    .jogos h3 {
+        display: none;
+    }
+    .jogos-button {
+        margin-top: 50px;
+        width:35%;
+        height:20%;
+    }
+    .banner {
+        display: flex;
+        width: 100%;
+          }
+    .informações h3 {
+        display: flex;
+        flex-direction: column;
+          }
+    .informações h4 {
+            display: none;
+          }
+
+    .chamadat {
+        display: none;
+    }
+    .Diversos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .lançamentos{
+        margin-bottom: 10px;
+    }
+    .mais-vendidos{
+        margin-bottom: 10px;
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        height:fit-content;
+    }
+
+.newsletter{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+    .pagamento {
+        display: none;
+    }
+.contatos-nome{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    }
+}    
